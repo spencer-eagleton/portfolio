@@ -1,0 +1,10 @@
+.about-button {
+  width: 40vw;
+  height: 40vw;
+  background-color: #9d7357;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}

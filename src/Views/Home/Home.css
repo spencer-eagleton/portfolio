@@ -1,0 +1,16 @@
+.home {
+  height: 100%;
+  width: 100vw;
+  border: 1px solid black;
+}
+
+.projects {
+  margin-top: 20vh;
+}
+
+.about-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 100%;
+}
