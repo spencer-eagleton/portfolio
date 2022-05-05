@@ -1,13 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Chakra+Petch:wght@600&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
 .header {
-  color: #9d7357;
-  height: 15vh;
-  width: 100vw;
+  background-color: #23232385;
+  height: 10vh;
+  margin-top: 3vh;
+  margin-right: 5vw;
+  width: 90vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Amatic SC", cursive;
-  font-size: 2em;
-  position: fixed;
+  position: absolute;
+  border-radius: 0 5px 5px 0;
+  /* box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.397); */
+}
+
+.title {
+  color: #fcecc9c5;
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 2vw;
+  position: absolute;
+  right: 2vw;
 }

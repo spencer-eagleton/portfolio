@@ -1,0 +1,8 @@
+.projects {
+  position: fixed;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.418);
+  width: 90vw;
+  height: 80vh;
+  margin: auto;
+}

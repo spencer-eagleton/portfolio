@@ -2,7 +2,7 @@ import "./AboutButton.css";
 
 export default function AboutButton() {
   return (
-    <div className="about-button">
+    <div>
       <h1>About Me</h1>
     </div>
   );

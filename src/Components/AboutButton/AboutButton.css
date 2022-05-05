@@ -1,10 +1,27 @@
 .about-button {
-  width: 40vw;
-  height: 40vw;
-  background-color: #9d7357;
+  width: 6vw;
+  height: 6vw;
+  background-image: url("/public/funkycircle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: fixed;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .about-button {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
