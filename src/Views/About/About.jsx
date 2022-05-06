@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 
 const containerVariants = {
   hidden: {
-    x: 1250,
+    x: 5050,
   },
   visible: {
     x: 0,
     transition: { type: "tween", duration: 0.3, delay: 0.5 },
   },
   exit: {
-    x: 1250,
+    x: 5050,
     transition: { type: "tween", duration: 0.2 },
   },
 };

@@ -17,7 +17,7 @@
 .featuredproject {
   width: 65vw;
   height: 65vh;
-  background-color: rgba(247, 247, 247, 0.11);
+  /* background-color: rgba(0, 0, 0, 0.281); */
   border-radius: 25px;
   margin-top: 5vh;
 }
