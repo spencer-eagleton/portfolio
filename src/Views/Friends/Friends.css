@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300;600&display=swap");
+
+.friendscontainer {
+  font-family: "Josefin Slab", serif;
+  display: flex;
+  flex-direction: column;
+  color: beige;
+
+}
+
+.samplecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1vw;
+}
+
+p {
+  width: 13em;
+  height: 10em;
+  font-size:x-large;
+  margin-left: 2vw;
+  overflow-y: scroll;
+}
+
+.friendssample {
+  background-image: url("../../../public/friendshome.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-width: 10em;
+  height: 18em;
+}
+
+.links {
+    margin: 1vw;
+}
+
+a {
+    margin: 3vw;
+}

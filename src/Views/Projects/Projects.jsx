@@ -1,6 +1,6 @@
 import "./Projects.css";
 import { motion } from "framer-motion";
-import { Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import Resourcery from "../Resourery/Resourcery";
 import Friends from "../Friends/Friends";
 import Yahfood from "../Yahfood/Yahfood";
@@ -30,19 +30,17 @@ export default function Projects() {
         exit="exit"
       >
         <div className="featuredproject">
-          <Routes>
-          {/* <Resourcery /> */}
-            
-            <Route path="resourcery" element={<Resourcery />} />
+          <Routes>            
+            <Route path="/" element={<Resourcery />} />
             <Route path="friends" element={<Friends />} />
             <Route path="yahfood" element={<Yahfood />} />
           </Routes>
         </div>
 
         <div className="icons">
-          <div className="resourcerylogo"></div>
-          <div className="yahfoodlogo"></div>
-          <div className="friendslogo"></div>
+          <Link to={'/projects/'} className="resourcerylogo"></Link>
+          <Link to={'/projects/yahfood'} className="yahfoodlogo"></Link>
+          <Link to={'/projects/friends'} className="friendslogo"></Link>
         </div>
       </motion.div>
     </div>
