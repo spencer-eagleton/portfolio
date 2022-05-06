@@ -1,19 +1,40 @@
 import "./Projects.css";
+import { motion } from "framer-motion";
+
+const containerVariants = {
+  hidden: {
+    y: 600,
+  },
+  visible: {
+    y: 0,
+    transition: { type: "tween", duration: 0.3, delay: 0.3 },
+  },
+  exit: {
+    y: 600,
+    transition: { type: "tween", duration: 0.3 },
+  },
+};
 
 export default function Projects() {
   return (
     <div>
-      <div className="projects">
+      <motion.div
+        className="projects"
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+        exit="exit"
+      >
         <div>
-          <h2>resourcery</h2>
+          <div className="resourcerylogo"></div>
         </div>
         <div>
-          <h2>friends.map( )</h2>
+          <div className="yahfoodlogo"></div>
         </div>
         <div>
-          <h2>Yah-Food!</h2>
+          <div className="friendslogo"></div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

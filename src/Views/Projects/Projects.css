@@ -1,8 +1,38 @@
 .projects {
-  position: fixed;
+  position: absolute;
   bottom: 0px;
-  background-color: rgba(0, 0, 0, 0.418);
+  background-color: #23232385;
   width: 90vw;
   height: 80vh;
-  margin: auto;
+  margin-left: 5vw;
+  border-radius: 15px 15px 0 0;
+  backdrop-filter: blur(2px);
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.281);
+  display: flex;
+  justify-content: center;
+}
+
+.resourcerylogo {
+  width: 20vw;
+  height: 20vw;
+  background-image: url("../../../public/resourcery-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 5vw;
+}
+
+.friendslogo {
+  width: 20vw;
+  height: 20vw;
+  background-image: url("../../../public/friendsdotmaplogo.png");
+  background-size: contain;
+  margin: 5vw;
+}
+
+.yahfoodlogo {
+  width: 20vw;
+  height: 20vw;
+  background-image: url("../../../public/yahfoodlogo.png");
+  background-size: contain;
+  margin: 5vw;
 }
