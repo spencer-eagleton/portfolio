@@ -1,38 +1,62 @@
 .projects {
   position: absolute;
   bottom: 0px;
-  background-color: #23232385;
+  background-color: #af917250;
   width: 90vw;
   height: 80vh;
   margin-left: 5vw;
   border-radius: 15px 15px 0 0;
-  backdrop-filter: blur(2px);
-  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.281);
+  backdrop-filter: blur(1px);
+  /* box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.281); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featuredproject {
+  width: 65vw;
+  height: 65vh;
+  background-color: rgba(247, 247, 247, 0.11);
+  border-radius: 25px;
+  margin-top: 5vh;
+}
+
+.icons {
+  display: flex;
+}
+
+.resourcerylogo {
+  width: 5em;
+  height: 5em;
+  background-image: url("../../../public/resourcery-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 1em;
   display: flex;
   justify-content: center;
 }
 
-.resourcerylogo {
-  width: 20vw;
-  height: 20vw;
-  background-image: url("../../../public/resourcery-icon.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin: 5vw;
-}
-
 .friendslogo {
-  width: 20vw;
-  height: 20vw;
+  width: 5em;
+  height: 5em;
   background-image: url("../../../public/friendsdotmaplogo.png");
   background-size: contain;
-  margin: 5vw;
+  background-repeat: no-repeat;
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .yahfoodlogo {
-  width: 20vw;
-  height: 20vw;
+  width: 5em;
+  height: 5em;
   background-image: url("../../../public/yahfoodlogo.png");
   background-size: contain;
-  margin: 5vw;
+  background-repeat: no-repeat;
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

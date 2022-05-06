@@ -8,14 +8,16 @@ export default function Header() {
       className="header"
       initial={{ x: -800 }}
       animate={{ x: 0 }}
-      transition={{ type: "tween", duration: 0.1 }}
+      transition={{ type: "tween", duration: 0.5 }}
     >
-      <Link to="/">
-        <h3>Projects</h3>
-      </Link>
-      <Link to="/about">
-        <h3>About</h3>
-      </Link>
+      <nav className="nav">
+        <Link to="/projects">
+          <h3>Projects</h3>
+        </Link>
+        <Link to="/about">
+          <h3>About</h3>
+        </Link>
+      </nav>
       <h1 className="title">Spencer Eagleton</h1>
     </motion.div>
   );
