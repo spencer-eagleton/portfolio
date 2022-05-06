@@ -28,11 +28,13 @@ export default function About() {
       <div className="bio">
         <div className="headshot"></div>
         <p>
-          I'm a full-stack software engineer, creating applications and features
+          I'm a full-stack software engineer based in Portland. I create web applications
           with efficient and clean code. I love learning new languages and
           frameworks that allow me to expand my tech stack.
         </p>
       </div>
+      <a href="https://github.com/spencer-eagleton">Github</a>
+      <a href="https://www.linkedin.com/in/spencer-eagleton/">LinkedIn</a>
     </motion.div>
   );
 }

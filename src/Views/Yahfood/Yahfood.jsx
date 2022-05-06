@@ -1,8 +1,27 @@
 import './Yahfood.css'
+import { motion } from "framer-motion";
+
+const containerVariants = {
+  hidden: {
+    y: 1000,
+  },
+  visible: {
+    y: 0,
+    transition: { type: "tween", duration: 0.3, delay: 0.6 },
+  },
+  exit: {
+    y: 1000,
+    transition: { type: "tween", duration: 0.3 },
+  },
+};
+
 
 export default function Yahfood() {
   return (
-    <div className="yahfoodcontainer">
+    <motion.div className="yahfoodcontainer" variants={containerVariants}
+    initial="hidden"
+    animate="visible"
+    exit="exit">
       <h1>Yahfood</h1>
       <container className="samplecontainer">
         <div className="yahfoodsample"></div>
@@ -19,6 +38,6 @@ export default function Yahfood() {
         <a href="https://hopeful-curie-14d366.netlify.app/">Deployed Site</a>
         <a href="https://github.com/Yah-food">Github</a>
       </div>
-    </div>
+    </motion.div>
   );
 }

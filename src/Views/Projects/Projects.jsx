@@ -1,9 +1,10 @@
 import "./Projects.css";
-import { motion } from "framer-motion";
-import { Link, Route, Routes } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion";
+import { Link, Route, Routes, useLocation } from "react-router-dom";
 import Resourcery from "../Resourery/Resourcery";
 import Friends from "../Friends/Friends";
 import Yahfood from "../Yahfood/Yahfood";
+
 
 const containerVariants = {
   hidden: {
@@ -20,6 +21,7 @@ const containerVariants = {
 };
 
 export default function Projects() {
+  const location = useLocation();
   return (
     <div>
       <motion.div
@@ -30,13 +32,14 @@ export default function Projects() {
         exit="exit"
       >
         <div className="featuredproject">
-          <Routes>            
-            <Route path="/" element={<Resourcery />} />
-            <Route path="friends" element={<Friends />} />
-            <Route path="yahfood" element={<Yahfood />} />
-          </Routes>
+          <AnimatePresence>
+          <Routes location={location} key={location.key}>            
+              <Route path="/" element={<Resourcery />} />
+              <Route path="friends" element={<Friends />} />
+              <Route path="yahfood" element={<Yahfood />} />
+            </Routes>
+          </AnimatePresence>
         </div>
-
         <div className="icons">
           <Link to={'/projects/'} className="resourcerylogo"></Link>
           <Link to={'/projects/yahfood'} className="yahfoodlogo"></Link>
