@@ -23,6 +23,16 @@ export default function About() {
       initial="hidden"
       animate="visible"
       exit="exit"
-    ></motion.div>
+    >      
+      <h1>Hi, I'm Spencer!</h1>
+      <div className="bio">
+        <div className="headshot"></div>
+        <p>
+          I'm a full-stack software engineer, creating applications and features
+          with efficient and clean code. I love learning new languages and
+          frameworks that allow me to expand my tech stack.
+        </p>
+      </div>
+    </motion.div>
   );
 }
