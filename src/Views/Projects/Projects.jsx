@@ -4,6 +4,7 @@ import { Link, Route, Routes, useLocation } from "react-router-dom";
 import Resourcery from "../Resourery/Resourcery";
 import Friends from "../Friends/Friends";
 import Yahfood from "../Yahfood/Yahfood";
+import { useTheme } from "../../Hooks/useTheme";
 
 
 const containerVariants = {
@@ -21,11 +22,12 @@ const containerVariants = {
 };
 
 export default function Projects() {
+  const { theme, toggleTheme } = useTheme();
   const location = useLocation();
   return (
     <div>
       <motion.div
-        className="projects"
+        className={`projects ${theme}`}
         variants={containerVariants}
         initial="hidden"
         animate="visible"
@@ -41,9 +43,9 @@ export default function Projects() {
           </AnimatePresence>
         </div>
         <div className="icons">
-          <Link to={'/projects/'} className="resourcerylogo"></Link>
-          <Link to={'/projects/yahfood'} className="yahfoodlogo"></Link>
-          <Link to={'/projects/friends'} className="friendslogo"></Link>
+          <Link to={'/projects/'} className="resourcerylogo" onClick={toggleTheme}></Link>
+          <Link to={'/projects/yahfood'} className="yahfoodlogo" onClick={toggleTheme}></Link>
+          <Link to={'/projects/friends'} className="friendslogo" onClick={toggleTheme}></Link>
         </div>
       </motion.div>
     </div>

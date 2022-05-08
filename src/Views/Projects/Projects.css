@@ -1,7 +1,7 @@
 .projects {
   position: absolute;
   bottom: 0px;
-  background-color: #af917250;
+  background-color: rgba(38, 93, 92, 0.544);
   width: 90vw;
   height: 80vh;
   margin-left: 5vw;
@@ -12,6 +12,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.projects.resourcery {
+  background-color: rgba(57, 106, 57, 0.544);
+}
+
+.projects.friends {
+  background-color: rgba(38, 93, 92, 0.544);
+}
+
+.projects.yahfood {
+  background-color: rgba(174, 154, 67, 0.544);
+
 }
 
 .featuredproject {

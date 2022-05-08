@@ -3,7 +3,7 @@
 .about {
   position: absolute;
   right: 0px;
-  background-color: #af917250;
+  background-color: rgba(0, 0, 0, 0.544);
   width: 90vw;
   height: 75vh;
   bottom: 5vh;
