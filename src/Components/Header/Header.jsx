@@ -9,7 +9,8 @@ export default function Header() {
       initial={{ x: -800 }}
       animate={{ x: 0 }}
       transition={{ type: "tween", duration: 0.5 }}
-    >
+      >
+      <h1 className="title">Spencer Eagleton</h1>
       <nav className="nav">
         <Link to="/projects">
           <h3>Projects</h3>
@@ -18,7 +19,6 @@ export default function Header() {
           <h3>About</h3>
         </Link>
       </nav>
-      <h1 className="title">Spencer Eagleton</h1>
     </motion.div>
   );
 }

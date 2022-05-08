@@ -29,6 +29,7 @@ p {
   background-repeat: no-repeat;
   min-width: 10em;
   height: 18em;
+  margin: 1vw;
 }
 
 .links {

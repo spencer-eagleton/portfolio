@@ -10,6 +10,7 @@
 
 .samplecontainer {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin: 1vw;
@@ -21,6 +22,9 @@ p {
   font-size:x-large;
   margin-left: 2vw;
   overflow-y: scroll;
+  display: flex;
+  justify-content: flex-start;
+  text-align: right;
 }
 
 .resourcerysample {
@@ -29,6 +33,9 @@ p {
   background-repeat: no-repeat;
   min-width: 10em;
   height: 18em;
+  margin: 1vw;
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.281);
+
 }
 
 .links {
