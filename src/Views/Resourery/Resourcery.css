@@ -24,7 +24,6 @@ p {
   overflow-y: scroll;
   display: flex;
   justify-content: flex-start;
-  text-align: right;
 }
 
 .resourcerysample {
