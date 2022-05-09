@@ -23,6 +23,10 @@ export default function Resourcery() {
     exit="exit">
       <h1>Resourcery</h1>
       <container className="samplecontainer">
+      <div className="links">
+        <a href="https://resourcery-resourcery.netlify.app/">Website</a>
+        <a href="https://github.com/resourcery-final-project">Github</a>
+      </div>
         <div className="resourcerysample"></div>
         <p>
           Resourcery is a mutual-aid web app that enables people to support
@@ -34,10 +38,6 @@ export default function Resourcery() {
         </p>
       </container>
 
-      <div className="links">
-        <a href="https://resourcery-resourcery.netlify.app/">Deployed Site</a>
-        <a href="https://github.com/resourcery-final-project">Github</a>
-      </div>
     </motion.div>
   );
 }

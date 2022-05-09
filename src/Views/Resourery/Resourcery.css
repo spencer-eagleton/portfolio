@@ -30,10 +30,11 @@ p {
   background-image: url("../../../public/resourcery-gif.gif");
   background-size: contain;
   background-repeat: no-repeat;
-  min-width: 10em;
-  height: 18em;
+  min-width: 13.5em;
+  height: 24em;
   margin: 1vw;
   box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.281);
+  border-radius: 5px;
 
 }
 

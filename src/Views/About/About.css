@@ -4,7 +4,7 @@
   position: absolute;
   right: 0px;
   background-color: rgba(0, 0, 0, 0.544);
-  width: 90vw;
+  width: 93vw;
   height: 75vh;
   bottom: 5vh;
   border-radius: 15px 0 0 15px;
@@ -17,6 +17,7 @@
   overflow-y: scroll;
   font-family: "Josefin Slab", serif;
   color: bisque;
+  backdrop-filter: blur(10px);
 }
 
 .bio {

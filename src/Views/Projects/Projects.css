@@ -3,7 +3,7 @@
   bottom: 0px;
   background-color: rgba(0, 0, 0, 0.544);
   width: 90vw;
-  height: 80vh;
+  height: 83vh;
   margin-left: 5vw;
   border-radius: 15px 15px 0 0;
   backdrop-filter: blur(1px);
@@ -40,6 +40,9 @@
 
 .icons {
   display: flex;
+  justify-content: center;
+  max-width: 500px;
+  max-height: 165px;
 }
 
 .resourcerylogo {
