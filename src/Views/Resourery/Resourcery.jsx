@@ -23,12 +23,12 @@ export default function Resourcery() {
     exit="exit">
       <h1>Resourcery</h1>
       <container className="samplecontainer">
+        <div className="resourcerysample"></div>
+        <p>
       <div className="links">
         <a href="https://resourcery-resourcery.netlify.app/">Website</a>
         <a href="https://github.com/resourcery-final-project">Github</a>
       </div>
-        <div className="resourcerysample"></div>
-        <p>
           Resourcery is a mutual-aid web app that enables people to support
           others directly with free resources on a personnal level. Users are
           able to post anything from free food, pet supplies, camping supplies
