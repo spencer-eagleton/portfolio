@@ -27,14 +27,16 @@ export default function About() {
       <h1>Hi, I'm Spencer!</h1>
       <div className="bio">
         <div className="headshot"></div>
-        <p>
+        <p className="bioparagraph">
           I'm a full-stack software engineer based in Portland. I create web applications
           with efficient and clean code. I love learning new languages and
           frameworks that allow me to expand my tech stack.
         </p>
       </div>
-      <a href="https://github.com/spencer-eagleton">Github</a>
-      <a href="https://www.linkedin.com/in/spencer-eagleton/">LinkedIn</a>
+      <div className="linkeroos">
+        <a href="https://github.com/spencer-eagleton">Github</a>
+        <a href="https://www.linkedin.com/in/spencer-eagleton/">LinkedIn</a>
+      </div>
     </motion.div>
   );
 }

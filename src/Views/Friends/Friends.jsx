@@ -1,4 +1,4 @@
-import './Friends.css'
+import "./Friends.css";
 import { motion } from "framer-motion";
 
 const containerVariants = {
@@ -17,21 +17,26 @@ const containerVariants = {
 
 export default function Friends() {
   return (
-    <motion.div className="friendscontainer" variants={containerVariants}
-    initial="hidden"
-    animate="visible"
-    exit="exit">
-    <h1>friends.map( )</h1>
-    <container className="samplecontainer">
-      <div className="friendssample"></div>
-      <p>
-    <div className="links">
-      <a href="https://friends-dot-map.netlify.app/">Website</a>
-      <a href="https://github.com/friends-dot-map">Github</a>
-    </div>
-       friends.map() is a convenient travel companion that helps to keep you and your groups safe and organized in unfamiliar places while protecting your privacy.
-      </p>
-    </container>
-  </motion.div>
-  )
+    <motion.div
+      className="friendscontainer"
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+    >
+      <h1>friends.map( )</h1>
+      <container className="samplecontainer">
+        <div className="friendssample"></div>
+        <p>
+          <div className="links">
+            <a href="https://friends-dot-map.netlify.app/">Website</a>
+            <a href="https://github.com/friends-dot-map">Github</a>
+          </div>
+          friends.map() is a convenient travel companion that helps to keep you
+          and your groups safe and organized in unfamiliar places while
+          protecting your privacy.
+        </p>
+      </container>
+    </motion.div>
+  );
 }

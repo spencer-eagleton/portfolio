@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
 
 .about {
   position: absolute;
@@ -15,7 +17,7 @@
   justify-content: center;
   align-items: center;
   overflow-y: scroll;
-  font-family: "Josefin Slab", serif;
+  font-family: "Space Grotesk", serif;
   color: bisque;
   backdrop-filter: blur(10px);
 }
@@ -23,6 +25,8 @@
 .bio {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
+
   justify-content: center;
   align-items: center;
   overflow-y: scroll;
@@ -43,4 +47,14 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.bioparagraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.linkeroos {
+  margin: 2vh;
 }
