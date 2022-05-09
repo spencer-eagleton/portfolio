@@ -1,6 +1,6 @@
 import "./Projects.css";
 import { motion, AnimatePresence } from "framer-motion";
-import { Link, Route, Routes, useLocation } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import Resourcery from "../Resourery/Resourcery";
 import Friends from "../Friends/Friends";
 import Yahfood from "../Yahfood/Yahfood";
@@ -23,7 +23,6 @@ const containerVariants = {
 
 export default function Projects() {
   const { theme, toggleTheme } = useTheme();
-  const location = useLocation();
   return (
     <div>
       <motion.div
@@ -35,7 +34,7 @@ export default function Projects() {
       >
         <div className="featuredproject">
           <AnimatePresence>
-          <Routes location={location} key={location.key}>            
+          <Routes >            
               <Route path="/" element={<Resourcery />} />
               <Route path="friends" element={<Friends />} />
               <Route path="yahfood" element={<Yahfood />} />
