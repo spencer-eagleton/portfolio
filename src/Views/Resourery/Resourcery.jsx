@@ -22,7 +22,7 @@ export default function Resourcery() {
     animate="visible"
     exit="exit">
       <h1>Resourcery</h1>
-      <container className="samplecontainer">
+      <div className="samplecontainer">
         <div className="resourcerysample"></div>
         <p>
       <div className="links">
@@ -36,7 +36,7 @@ export default function Resourcery() {
           CSS, PostgreSQL and Express. Users can choose a populated address from
           Google Places autofill or place a marker on the map with a click.
         </p>
-      </container>
+      </div>
 
     </motion.div>
   );

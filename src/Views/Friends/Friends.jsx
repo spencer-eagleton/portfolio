@@ -25,7 +25,7 @@ export default function Friends() {
       exit="exit"
     >
       <h1>friends.map( )</h1>
-      <container className="samplecontainer">
+      <div className="samplecontainer">
         <div className="friendssample"></div>
         <p>
           <div className="links">
@@ -36,7 +36,7 @@ export default function Friends() {
           and your groups safe and organized in unfamiliar places while
           protecting your privacy.
         </p>
-      </container>
+      </div>
     </motion.div>
   );
 }

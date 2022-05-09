@@ -4,6 +4,9 @@ import About from "./Views/About/About";
 import Header from "./Components/Header/Header";
 import Projects from "./Views/Projects/Projects";
 import { AnimatePresence } from "framer-motion";
+import Resourcery from "./Views/Resourery/Resourcery";
+import Friends from "./Views/Friends/Friends";
+import Yahfood from "./Views/Yahfood/Yahfood";
 
 function App() {
   const location = useLocation();
@@ -13,8 +16,13 @@ function App() {
         <Header />
         <AnimatePresence>
           <Routes location={location} key={location.key}>
-            <Route path="/about" element={<About />} />
-            <Route path="/projects/*" element={<Projects />} />
+            {/* <Route path="/"/> */}
+            <Route path="/" element={<About />} />
+            <Route path="/projects/*" element={<Projects />}>
+              <Route path="resourcery" element={<Resourcery />} />
+              <Route path="friends" element={<Friends />} />
+              <Route path="yahfood" element={<Yahfood />} />
+            </Route>
           </Routes>
         </AnimatePresence>
       </div>

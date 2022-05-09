@@ -23,7 +23,7 @@ export default function Yahfood() {
     animate="visible"
     exit="exit">
       <h1>Yahfood</h1>
-      <container className="samplecontainer">
+      <div className="samplecontainer">
         <div className="yahfoodsample"></div>
         <p>
       <div className="links">
@@ -36,7 +36,7 @@ export default function Yahfood() {
           recipes, and create your own recipes. This App is suited for mobile
           use.
         </p>
-      </container>
+      </div>
 
     </motion.div>
   );
