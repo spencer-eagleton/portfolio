@@ -24,12 +24,12 @@ export default function Yahfood() {
     exit="exit">
       <h1>Yahfood</h1>
       <container className="samplecontainer">
+        <div className="yahfoodsample"></div>
+        <p>
       <div className="links">
         <a href="https://hopeful-curie-14d366.netlify.app/">Website</a>
         <a href="https://github.com/Yah-food">Github</a>
       </div>
-        <div className="yahfoodsample"></div>
-        <p>
           Yah-Food is a fun, simple, and creative app that helps the user
           discover new foods based on the ingredients they already have. It
           offers a small featured recipe section, ability to favorite certain
