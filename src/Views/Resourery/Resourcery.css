@@ -40,6 +40,7 @@ p {
 
 .links {
     margin: 1vw;
+    max-width: 312px;
 }
 
 a {
