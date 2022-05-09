@@ -7,7 +7,7 @@
   right: 0px;
   background-color: rgba(0, 0, 0, 0.544);
   width: 95vw;
-  max-height: 75vh;
+  height: 75vh;
   bottom: 5vh;
   border-radius: 15px 0 0 15px;
   backdrop-filter: blur(1px);
@@ -54,10 +54,16 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  max-width: 80vw;
+  max-width: 300px;
+  max-height: 300px
+
 
 }
 
 .linkeroos {
   margin: 2vh;
+}
+
+.name {
+  max-width: 320px;
 }

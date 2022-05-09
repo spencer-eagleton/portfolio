@@ -24,7 +24,7 @@ export default function About() {
       animate="visible"
       exit="exit"
     >      
-      <h1>Hi, I'm Spencer!</h1>
+      <h1 className="name">Hi, I'm Spencer!</h1>
       <div className="bio">
         <div className="headshot"></div>
         <p className="bioparagraph">
