@@ -36,6 +36,7 @@ p {
   margin: 1vw;
   border-radius: 5px;
   background-color: black;
+  box-shadow: 2px 2px 13px 1px rgba(0, 0, 0, 0.281);
 }
 
 .links {
