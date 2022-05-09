@@ -30,7 +30,7 @@
 } */
 
 .featuredproject {
-  width: 65vw;
+  width: 80vw;
   height: 65vh;
   /* background-color: rgba(0, 0, 0, 0.281); */
   border-radius: 25px;
@@ -41,6 +41,7 @@
 .icons {
   display: flex;
   justify-content: center;
+  width: 95vw;
   max-width: 500px;
   max-height: 165px;
 }
