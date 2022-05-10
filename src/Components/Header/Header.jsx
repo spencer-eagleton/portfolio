@@ -18,6 +18,9 @@ export default function Header() {
         <Link to="/">
           <h3>About</h3>
         </Link>
+        <Link to="/contact">
+          <h3>Contact</h3>
+        </Link>
       </nav>
     </motion.div>
   );

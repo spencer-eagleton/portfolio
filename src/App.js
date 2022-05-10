@@ -7,6 +7,7 @@ import { AnimatePresence } from "framer-motion";
 import Resourcery from "./Views/Resourery/Resourcery";
 import Friends from "./Views/Friends/Friends";
 import Yahfood from "./Views/Yahfood/Yahfood";
+import Contact from "./Views/Contact/Contact";
 
 function App() {
   const location = useLocation();
@@ -23,6 +24,7 @@ function App() {
               <Route path="friends" element={<Friends />} />
               <Route path="yahfood" element={<Yahfood />} />
             </Route>
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </AnimatePresence>
       </div>
