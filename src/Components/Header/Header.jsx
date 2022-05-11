@@ -12,11 +12,11 @@ export default function Header() {
       >
       <h1 className="title">Spencer Eagleton</h1>
       <nav className="nav">
-        <Link to="/projects">
-          <h3>Projects</h3>
-        </Link>
         <Link to="/">
           <h3>About</h3>
+        </Link>
+        <Link to="/projects">
+          <h3>Projects</h3>
         </Link>
         <Link to="/contact">
           <h3>Contact</h3>

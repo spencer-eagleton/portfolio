@@ -17,3 +17,30 @@
   color: bisque;
   backdrop-filter: blur(10px);
 }
+
+
+@media screen and (min-width: 601px) {
+    div.contactitem {
+      font-size: 20px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    div.contactitem {
+      font-size: 4vw;
+    }
+  }
+.contactitem {
+    background-color: rgba(187, 187, 187, 0.103);
+    border-radius: 5px;
+    width: 65vw;
+    height: 30vh;
+    max-width: 700px;
+    margin: 5px;
+    padding: 5px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
